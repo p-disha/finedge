@@ -23,6 +23,11 @@ const schemas = {
         amount: Joi.number().positive().required(),
         date: Joi.date().iso().optional(), // Optional as we set it if missing, but schema allows override
         description: Joi.string().optional()
+    }),
+    budget: Joi.object({
+        amount: Joi.number().positive().required(),
+        period: Joi.string().pattern(/^\d{4}-\d{2}$/).required(), // Format YYYY-MM
+        category: Joi.string().optional()
     })
 };
 

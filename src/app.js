@@ -19,9 +19,11 @@ app.get('/health', (req, res) => {
 // Routes
 const userRoutes = require('./routes/userRoutes');
 const transactionRoutes = require('./routes/transactionRoutes');
+const budgetRoutes = require('./routes/budgetRoutes');
 
 app.use('/users', userRoutes);
 app.use('/transactions', transactionRoutes);
+app.use('/budgets', budgetRoutes);
 
 // Root Route
 app.get('/', (req, res) => {
