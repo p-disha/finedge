@@ -1,0 +1,16 @@
+[
+  {
+    "id": "eca21157-276b-4a3c-825e-487f11e1b792",
+    "date": "2026-01-31T10:34:04.531Z",
+    "type": "income",
+    "category": "Salary",
+    "amount": 1000
+  },
+  {
+    "id": "a5529a20-f5d3-4d43-be66-9eb0e517b365",
+    "date": "2026-01-31T10:34:04.552Z",
+    "type": "expense",
+    "category": "Food",
+    "amount": 200
+  }
+]
